@@ -1,1 +1,1 @@
-# menly-landing
+# webpack-layout-boilerplate

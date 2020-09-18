@@ -1,0 +1,11 @@
+@import 'assets/fonts/fonts.scss';
+@import 'assets/scss/normalize.scss';
+
+.block {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 900;
+}
