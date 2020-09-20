@@ -26,7 +26,7 @@ const entry = (pages) => {
   pages.forEach((item) => {
     //  находится в корне src
     const pathEntry = item === 'index' ? `${PATHS.src}` : `${PATHS.src}/pages/${item}`;
-    objEntry[item] = [`${pathEntry}/${item}.jsx`, `${pathEntry}/${item}.scss`];
+    objEntry[item] = [`${pathEntry}/${item}.js`, `${pathEntry}/${item}.scss`];
   });
   return objEntry;
 };
