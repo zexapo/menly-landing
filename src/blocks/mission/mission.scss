@@ -6,14 +6,19 @@
   border-radius: 24px;
   display: flex;
   align-items: flex-end;
+  position: relative;
 
   &__wrapper {
     width: 100%;
-    margin-bottom: 22px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
-  &__image {
+  &__image{
+    width: auto !important; 
+    height: auto;
+    margin-bottom: 5px;
   }
   &__name {
     padding: 0px;

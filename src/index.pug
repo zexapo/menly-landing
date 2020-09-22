@@ -13,21 +13,21 @@ html(lang="en")
         .btn-sandwitch__line
         .btn-sandwitch__line
       .logo
-        img(src="/assets/image/logo.svg").logo__img
+        img(src="./assets/image/logo.svg").logo__img
       button.btn-login.header__btn-login войти
     .main-description
       h1.main-description__title Работаете в перевозках?
       p.main-description__text menly - это платформа для подключения к такси, которая помогает экономить на комиссии таксопарков
-      img(src="/assets/image/auto.png").main-description__img
+      img(src="./assets/image/auto.png").main-description__img
       .main-description__buttons
         button.btn-sample Попробовать
         button.btn-login.btn-login_size-big Войти
     .missions-list
-      h2.missions-list__text Для кого мы работаем
-      .missions-list__carousel
-        +mission('для водителей такси', '/assets/image/missions/taxi.png' )
-        +mission('для курьеров', '/assets/image/missions/courier.png' )
-        +mission('для собственников авто', '/assets/image/missions/helm.png' )
-        +mission('для арендаторов авто', '/assets/image/missions/security.png' )
-        +mission('для физических лиц', '/assets/image/missions/people.png' )
-        +mission('для водителей грузовых авто', '/assets/image/missions/truck.png' )
+      h2.missions-list__text Для кого мы работаем?
+      .owl-carousel.missions-list__carousel
+        +mission('для водителей такси', './assets/image/missions/taxi.png' )
+        +mission('для курьеров', './assets/image/missions/courier.png' )
+        +mission('для собственников авто', './assets/image/missions/helm.png' )
+        +mission('для арендаторов авто', './assets/image/missions/security.png' )
+        +mission('для физических лиц', './assets/image/missions/people.png' )
+        +mission('для водителей', './assets/image/missions/truck.png','грузовых авто' )

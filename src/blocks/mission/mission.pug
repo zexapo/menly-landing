@@ -1,5 +1,9 @@
-mixin mission(name, imageUrl)
+mixin mission(name, imageUrl, name2)
   .mission
     .mission__wrapper
       img(src=imageUrl).mission__image
       p.mission__name=name
+      if name2
+        p.mission__name=name2
+      else
+        p.mission__name &nbsp;
