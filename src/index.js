@@ -2,6 +2,7 @@ import * as $ from 'jquery';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
 
+// карусель "для кого мы работаем"
 $('.missions-list__carousel').owlCarousel({
   responsive: {
     0: {

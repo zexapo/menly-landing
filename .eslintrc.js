@@ -8,5 +8,6 @@ module.exports = {
       'error',
       process.env.NODE_ENV === 'prod' ? 'unix' : 'windows',
     ],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
   },
 };
