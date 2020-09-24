@@ -1,0 +1,13 @@
+include ../slider/slider
+mixin calculator
+  .calculator
+    h2.calculator__title Рассчитайте свою выгоду
+    .calculator__plan
+      .calculator__premium Премиум
+      .calculator__comfort Комфорт
+      .calculator__econom Эконом
+      .calculator__start Старт
+    .calculator__slider
+      +slider()
+      +slider()
+      +slider()

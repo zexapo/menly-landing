@@ -1,0 +1,7 @@
+mixin slider(title= 'default', minValue= 0, maxValue= 10,  minText= '1', maxText= '10', step= 1)
+  .slider
+    p.slider__title=title
+    input(type='range' min=minValue max=maxValue value=(maxValue-minValue)/2).slider__input
+    .slider__caption
+      .slider__caption-min=minText
+      .slider__caption-max=maxText
